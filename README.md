@@ -95,6 +95,68 @@ Before sending any response:
 
 ---
 
+## 🎨 Visual Synthesis & Nano Banana
+*Advanced Image Generation Techniques (Jan 2026)*
+
+These prompts leverage the **Nano Banana Pro** (Gemini 3.0 Image AI) model for high-aesthetic, photorealistic visual synthesis.
+
+### 🖼️ The 2026 Vision Board Framework
+A comprehensive prompt for creating high-aesthetic vision boards that maintain character consistency and integrate typography seamlessly.
+
+**Prompt:**
+```markdown
+Create a high-aesthetic 2026 vision board collage combining beautiful lifestyle photos with visible inspirational text and affirmations. Use the uploaded face image as the main character in several frames, preserving facial identity accurately. 
+
+The vision board represents an ideal 2026 life: success, peace, love, confidence, freedom, abundance, and self-alignment. Editorial yet dreamy visuals, soft luxury lifestyle, intentional living. 
+
+IMPORTANT: Text is a key element. Short phrases, affirmations, and words must be visibly integrated into the collage. Typography should feel aesthetic, handwritten, serif, or clean minimal fonts. 
+
+Scenes & visuals to include:
+- Portrait of the woman in soft natural light, calm confident expression.
+- Cozy morning scene: sunlight through curtains, coffee, notebook.
+- Career / purpose scene: working in a beautiful cafe, laptop open.
+- Travel or freedom scene: window, balcony, city view.
+- Luxury details: coffee cups, jewelry, flowers, neutral tones.
+
+Visual style: Soft editorial lighting, neutral and warm color palette (beige, cream, taupe), film look, subtle grain.
+Aspect ratio: vertical 16:9
+```
+
+![Nano Banana Vision Board 2026](https://private-us-east-1.manuscdn.com/sessionFile/7kdJwDbuC51Rejff6HEhGb/sandbox/aonFj6nQDOuPrrNNpCfJ4i-images_1768672015919_na1fn_L2hvbWUvdWJ1bnR1L0F3ZXNvbWUtUHJvbXB0cy9hc3NldHMvaW1hZ2VzL25hbm9fYmFuYW5hX3Zpc2lvbl9ib2FyZF8yMDI2.webp?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvN2tkSndEYnVDNTFSZWpmZjZIRWhHYi9zYW5kYm94L2FvbkZqNm5RRE91UHJyTk5wQ2ZKNGktaW1hZ2VzXzE3Njg2NzIwMTU5MTlfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwwRjNaWE52YldVdFVISnZiWEIwY3k5aGMzTmxkSE12YVcxaFoyVnpMMjVoYm05ZlltRnVZVzVoWDNacGMybHZibDlpYjJGeVpGOHlNREkyLndlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=mAphTAlvuSIAeXgLaO6QZ-4v-ZvQO8BMH7IqBesgltI2znUhMhv8Q9HTRaxh~r-5YVFW~IRNGLwsqC~0yROhDms1KHSbAj9DWUAsjAHPQGL7uhPd2WMiHw9HsebRorhTJPXumH4GI-I7ld1VqUrsYKVtG5LeiObKspPTwnvY4zXNdbcP0J9gFL2funFk83to1pzIWzoQKiZ6ePlq5LZbiKvJFW29x-f6RoLmL~NNsYVw-BXA2OYTGt2f9npm5uzFYJRVrWpkuhSoYOe1phiwTj3wEymRntayLRi9XHqnUY0z6NrvfPfjs31V5nucoBXfKFZntoUHDSpy9551wPck2g__)
+
+---
+
+### 📸 Realistic Lifestyle Portrait (JSON Structured)
+Nano Banana Pro responds exceptionally well to JSON-structured visual descriptions, allowing for granular control over lighting, composition, and technical specs.
+
+**Prompt:**
+```json
+{
+  "metadata": { "image_type": "photograph", "primary_purpose": "lifestyle/portrait" },
+  "composition": {
+    "rule_applied": "rule of thirds",
+    "focal_points": [ "Subject's face and eyes", "Environmental depth" ]
+  },
+  "lighting": {
+    "type": "mixed artificial",
+    "mood": "casual/inviting/warm",
+    "quality": "soft light (flattering on face)"
+  },
+  "technical_specs": {
+    "medium": "digital photography",
+    "style": "realistic/lifestyle",
+    "depth_of_field": "medium - subject sharp, background slightly out of focus"
+  },
+  "generation_parameters": {
+    "prompts": [
+      "POV photo of a beautiful young woman sitting at a sushi bar counter, looking back over shoulder at camera with a soft smile, photorealistic, high quality, soft focus background"
+    ]
+  }
+}
+```
+
+---
+
 ## 🧠 Advanced Cognitive Frameworks
 
 ### Explain Like I'm Smart (ELI-Smart)

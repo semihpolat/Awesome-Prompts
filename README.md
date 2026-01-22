@@ -8,6 +8,7 @@ Production-grade prompts extracted from $1B+ AI products. Leaked system prompts,
 
 ## Table of Contents
 
+- [Viral Visual Prompts (GPT-4o / Midjourney / FLUX)](#viral-visual-prompts-gpt-4o--midjourney--flux)
 - [Leaked Production Prompts](#leaked-production-prompts)
 - [Cursor Rules That Actually Work](#cursor-rules-that-actually-work)
 - [Claude Artifacts System](#claude-artifacts-system)
@@ -16,6 +17,198 @@ Production-grade prompts extracted from $1B+ AI products. Leaked system prompts,
 - [The Viral "God Mode" Prompts](#the-viral-god-mode-prompts)
 - [Reverse Prompt Engineering](#reverse-prompt-engineering)
 - [Context Engineering > Prompt Engineering](#context-engineering--prompt-engineering)
+
+---
+
+## Viral Visual Prompts (GPT-4o / Midjourney / FLUX)
+
+The prompts that broke the internet in 2025. GPT-4o image generation trends that got millions of shares.
+
+### Studio Ghibli Style (The One That Started It All)
+
+Sam Altman changed his profile picture to this. Millions followed. Upload your photo and use:
+
+```
+Transform this photo into Studio Ghibli anime style.
+Soft hand-drawn aesthetic, warm pastel colors,
+whimsical Miyazaki-inspired atmosphere,
+gentle lighting, dreamy background.
+```
+
+**Variations:**
+```
+Turn this into a scene from a Hayao Miyazaki film,
+with the signature Ghibli sky, soft clouds, and
+that nostalgic Japanese countryside feeling.
+```
+
+---
+
+### Action Figure in Box (Viral April 2025)
+
+The #BarbieBoxChallenge that took over LinkedIn, Instagram, and TikTok.
+
+**Basic Version:**
+```
+Create a picture of me as a 3D action figure toy,
+displayed in transparent plastic blister packaging.
+Include the figure standing upright with realistic
+toy-like proportions and glossy plastic appearance.
+```
+
+**Full Version (with customization):**
+```
+Create a realistic action figure of the person in this photo.
+The figure should be full-body, displayed in clear plastic
+box packaging.
+
+At the top of the box: "[YOUR NAME]"
+Tagline below: "[YOUR TITLE/CATCHPHRASE]"
+
+Accessories in the packaging:
+- [Item 1: e.g., laptop]
+- [Item 2: e.g., coffee cup]
+- [Item 3: e.g., book]
+
+Style: Premium collectible toy, professional photography
+of product packaging, studio lighting.
+```
+
+**Funko Pop Version:**
+```
+Turn this photo into a Funko Pop vinyl figure.
+Big head, small body, signature Funko black eyes,
+displayed in the classic Funko Pop box with
+clear window. Character name: [NAME]
+```
+
+**LEGO Minifigure Version:**
+```
+Transform this person into a LEGO minifigure.
+Classic LEGO proportions, yellow skin, simple
+facial features, displayed in LEGO-style packaging.
+Include 2-3 accessory pieces typical of LEGO sets.
+```
+
+---
+
+### Animation Style Transformations
+
+**Pixar Style:**
+```
+Render this photo in Pixar 3D animation style.
+Expressive eyes, smooth skin texture,
+exaggerated but appealing proportions,
+warm cinematic lighting like a Pixar movie poster.
+```
+
+**South Park Style:**
+```
+Recreate this image in South Park art style.
+Simple construction paper cutout aesthetic,
+round heads, simple dot eyes,
+characteristic South Park color palette.
+```
+
+**The Simpsons Style:**
+```
+Transform this photo into The Simpsons animation style.
+Yellow skin, overbite, bulging eyes,
+Matt Groening's distinctive line work,
+Springfield background optional.
+```
+
+**Disney Classic Style:**
+```
+Render as a classic Disney animated character.
+2D hand-drawn aesthetic, expressive eyes,
+flowing movement lines, warm color palette
+like a 1990s Disney Renaissance film.
+```
+
+---
+
+### Midjourney Viral Formula
+
+The formula that consistently goes viral: **[Subject] + [Style] + [Lighting] + [Quality Tags]**
+
+**Cinematic Portrait Formula:**
+```
+Cinematic portrait of [SUBJECT],
+dramatic rim lighting, shallow depth of field,
+shot on Canon 85mm f/1.4, color graded,
+moody atmosphere, 8K ultra detailed --ar 3:4 --v 6
+```
+
+**Hyper-Realistic Product Shot:**
+```
+[PRODUCT] floating in mid-air,
+studio lighting, soft shadows,
+commercial photography, clean background,
+ultra realistic, octane render, 8K --ar 1:1
+```
+
+**Viral "8K Retro" Template:**
+```
+[SUBJECT] in vintage 1970s aesthetic,
+film grain, warm color temperature,
+nostalgic lighting, retro fashion,
+shot on Kodak Portra 400, 8K quality,
+editorial photography --ar 16:9 --v 6
+```
+
+**Fantasy/Surreal (High Engagement):**
+```
+[CONCEPT] melting like wax under golden sunset,
+surrealism, Salvador Dalí influence,
+reflections on the ground, painterly textures,
+dramatic sky, ethereal atmosphere --ar 16:9
+```
+
+---
+
+### FLUX AI Prompts
+
+For Black Forest Labs' FLUX model (known for photorealism):
+
+**Photorealistic Scene:**
+```
+A serene meadow at golden hour, filled with
+wildflowers in purple, yellow, and white.
+Ancient oak tree in center, paper lanterns
+in soft pastel colors hanging from branches,
+illuminated from within, gentle breeze,
+dreamy atmosphere, photorealistic, 8K detail.
+```
+
+**Surreal Concept:**
+```
+[PERSON/OBJECT] in a surreal dreamscape,
+impossible geometry, M.C. Escher influence,
+soft bioluminescent lighting,
+hyper-detailed textures, cinematic composition,
+blending realistic and fantastical elements.
+```
+
+---
+
+### Pro Tips for Viral Visual Prompts
+
+1. **Specificity Wins** — "golden hour lighting" beats "good lighting"
+
+2. **Reference Real Cameras** — "shot on Canon 85mm" or "Hasselblad" adds realism
+
+3. **Quality Tags That Work:**
+   - `8K`, `ultra detailed`, `hyper realistic`
+   - `octane render`, `ray tracing`, `HDR`
+   - `cinematic`, `professional photography`
+
+4. **Aspect Ratios Matter:**
+   - `--ar 3:4` for portraits
+   - `--ar 16:9` for landscapes/cinematic
+   - `--ar 1:1` for social media
+
+5. **Combine Styles** — "cyberpunk + film noir" creates unique results
 
 ---
 
@@ -476,6 +669,13 @@ Found a leaked prompt or viral technique? Open a PR.
 
 ## Sources
 
+**Visual Prompts:**
+- [OpenAI 4o Image Generation](https://openai.com/index/introducing-4o-image-generation/) — Official GPT-4o image features
+- [Ghibli Trend Analysis](https://www.theainavigator.com/blog/ai-ghiblification-how-studio-ghibli-style-images-went-viral-in-the-gpt-4-era)
+- [Action Figure Trend](https://www.tomsguide.com/ai/ai-image-video/this-viral-chatgpt-trend-lets-you-turn-yourself-into-an-action-figure-heres-how-to-do-it)
+- [Midjourney Prompts Guide](https://www.tipseason.com/midjourney-prompts-for-realism)
+
+**System Prompts:**
 - [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) — 6,500+ leaked prompts
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — Cursor rules collection
 - [Claude Artifacts System Prompt](https://gist.github.com/dedlim/6bf6d81f77c19e20cd40594aa09e3ecd)
